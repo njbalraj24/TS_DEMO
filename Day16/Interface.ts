@@ -2,7 +2,7 @@
  1. An Interface in Typescript is a way to define structure of an object.
  2. It tells compiler what properties and types an object should have.
  3. Its like a blueprint of an object.
- 4. In Interface methods are always Abstract
+ 4. In Interface,  methods are always Abstract
 
  Abstract method: Only have signature of the method (there is no implementation)
 

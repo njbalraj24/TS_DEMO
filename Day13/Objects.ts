@@ -16,7 +16,7 @@ Behaviour - getdetails(), setdetails()
 2. Inline Type Object - We also defines the Datatype of the keys (TS)
 3. Using Type Alias (TS)
 4. Using the Classes (JS ES16 / TS)
- */
+ */;
 
 /* 1. Using 'object' type - Directly define value for variables (JS/TS)
 The TypeScript 'object' type represents all values that are not in primitive types.
