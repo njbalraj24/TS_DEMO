@@ -11,7 +11,7 @@ for(let i=0; i<arr1.length;i++)
     max = arr1[i];
   }
 }
-console.log(max);
+console.log(max); //8
 
 let min = arr1[0];
 for(let i=0; i<arr1.length;i++)
@@ -21,7 +21,7 @@ for(let i=0; i<arr1.length;i++)
     min = arr1[i];
   }
 }
-console.log(min);
+console.log(min); //-2
 
 //Approach2:
 let arr4 = [5, 1, 8, -2, 0];
