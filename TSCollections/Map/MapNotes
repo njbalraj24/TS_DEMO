@@ -1,0 +1,26 @@
+Map
+The TypeScript Map object is used to map keys to values. 
+It stores each element as key-value pair. 
+It operates the elements such as search, update and delete on the basis of specified key.
+
+Syntax:
+new Map([iterable])
+iterable - It represents an array and other iterable object whose elements are in the form of key-value pair.
+
+Points to remember:
+A map object cannot contain the duplicate keys.
+*** A map object can contain the duplicate values. ***
+The key and value can be of any type (allows both object and primitive values).
+A map object iterates its elements in insertion order.
+
+TypeScript Map Methods:
+
+clear() - It removes all the elements from a Map object.
+delete() - It deletes the specified element from a Map object.
+entries() - It returns an object of Map iterator that contains the key-value pair for each element.
+forEach() - It executes the specified function once for each key/value pair.
+get() - It returns the value of specified key.
+has() - It indicates whether the map object contains the specified key element.
+keys() - It returns an object of Map iterator that contains the keys for each element.
+set() - It adds or updates the key-value pairs to Map object.
+values() - It returns an object of Map iterator that contains the values for each element.

@@ -21,4 +21,11 @@ b - a = 8 - 10 = -2 → 10 stays before 8
 
 12 vs others...
 Eventually it becomes: [12, 10, 8, 5]
+
+unique = [10, 5, 8, 12]
+Comparisons done internally (simplified):
+Compare 5 vs 10 → 10 comes first
+Compare 8 vs 10 → 10 stays on top
+Compare 8 vs 5 → 8 comes before 5
+Compare 12 vs others → 12 becomes first
 */
