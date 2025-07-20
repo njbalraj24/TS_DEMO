@@ -1,0 +1,20 @@
+- A promise in TypeScript is an object that is used to represent the eventual completion or failure 
+of an asynchronous operation.
+
+- States of Promise
+There are three states of Promise in JavaScript:
+
+Pending: It is the initial phase, which represents that the asynchronous operations are still in progress.
+Fulfilled: It indicates that the asynchronous operation has been completed successfully.
+Rejected: It indicates that the operation has failed.
+
+- Methods of JavaScript Promise
+Promise.all() Method = takes an array of promises and waits for all promises to resolve, then it returns one promise. If any promise is rejected, it will reject it immediately.
+Promise.any() Method = takes an iterable of promises and returns a single promise that resolves as soon as any of the input promises fulfill.
+Promise.resolve() Method = The Promise.resolve() method returns a promise that resolves with the given value.
+Promise.reject() Method = returns a new object that is rejected with a given reason.
+
+- Why do we use Promise in JavaScript?
+Composing Asynchronous Operations
+Readability and Maintainability
+Improved Error Handling

@@ -1,0 +1,9 @@
+- In TypeScript, the async/await provides a cleaner and more readable way to work with promises, 
+which makes asynchronous code appear more synchronous.
+**** The async is used to declare a function as asynchronous, and await pauses execution until a promise resolves, which helps simplify the handling of asynchronous operations ****
+
+- Advantages of Async/Await
+Improved Readability
+Easier Debugging
+Simplified Error Handling
+Enhanced Code Structure
