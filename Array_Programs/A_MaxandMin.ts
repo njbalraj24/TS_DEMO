@@ -27,4 +27,4 @@ console.log(min); //-2
 let arr4 = [5, 1, 8, -2, 0];
 let max1 = Math.max(...arr4);
 let min1 = Math.min(...arr4);
-console.log(`Max: ${max}, Min: ${min}`); // Max: 8, Min: -2
+console.log(`Max: ${max1}, Min: ${min1}`); // Max: 8, Min: -2

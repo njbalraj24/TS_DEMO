@@ -6,7 +6,6 @@ function isArmstrong(num: number): boolean {
 
     return sum === num;
 }
-
 // Example usage
 console.log(isArmstrong(153)); // true
 console.log(isArmstrong(9474)); // true
